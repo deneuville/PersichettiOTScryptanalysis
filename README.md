@@ -44,6 +44,13 @@ For instance, if p=5, *c* = [0 1 0 1 0], and *z* = (*z0*, *z1*) = ([1 1 0 0 0], 
 [0 0 0 1 1]\n
 ```
 
+## Sample files
+
+We provide 4 samples of signature files, one for each set of parameters (see Tab. 2 of [ePrint 2017/397](https://eprint.iacr.org/2017/397)), obtained using a homemade (dirty) implementation of Persichetti's OTS.
+
+`samples/set-i.txt` contains a one-time signature using parameters of the $i^{th}$ line of Tab. 2. For instance, in `sample/set-2.txt`, we have $p=9857$.
+
+
 ## Reporting bugs, comments
 
 Please feel free to report any problem encountered by mail (jean-christophe[dot]deneuville[at]insa-cvl[dot]fr) or using the issues feature.
