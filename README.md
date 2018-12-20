@@ -24,6 +24,10 @@ Where the parameters should be:
 1. `threshold` a tuning parameter for the extended bit flipping algorithm (see Tab. 1 of [ePrint 2018/1205](https://eprint.iacr.org/2018/1205)),
 1. `maxBFround` an upper bound on the number of execution rounds for the extended bit flipping algorithm.
 
+## Algorithm output
+
+The program outputs (in `stdout`) the candidate secret key *x0* and *x1* as well as some information about the inputs and the execution time.
+
 ## Expected format of the signature
 
 Recall that a OTS in Persichetti's scheme corresponds to a couple (*c*, *z*), with *z* = (*z0*, *z1*).
